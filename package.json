@@ -1,0 +1,19 @@
+{
+  "name": "shipping-service",
+  "version": "1.0.0",
+  "description": "Awesome Shipping Industries ships to your favourite location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matse/shipping-service.git"
+  },
+  "author": "Matthias Seelig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matse/shipping-service/issues"
+  },
+  "homepage": "https://github.com/matse/shipping-service#readme"
+}
