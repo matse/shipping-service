@@ -1,27 +1,32 @@
 {
-  "name": "shipping-service",
-  "version": "1.0.0",
-  "description": "Awesome Shipping Industries ships to your favourite location.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/matse/shipping-service.git"
-  },
-  "author": "Matthias Seelig",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/matse/shipping-service/issues"
-  },
-  "homepage": "https://github.com/matse/shipping-service#readme",
-  "devDependencies": {
-    "nock": "^10.0.6",
-    "sinon": "^7.3.1"
-  },
-  "dependencies": {
-    "axios": "^0.18.0",
-    "express": "^4.16.4"
-  }
+    "name": "shipping-service-12",
+    "version": "1.0.0",
+    "description": "Awesome Shipping Industries ships to your favourite location.",
+    "main": "app.js",
+    "scripts": {
+        "test": "jest tests",
+        "start": "node src/app.js"
+    },
+    "engines": {
+        "node": "8.11.3",
+        "npm": "5.6.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/matse/shipping-service.git"
+    },
+    "author": "Matthias Seelig",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/matse/shipping-service/issues"
+    },
+    "homepage": "https://github.com/matse/shipping-service#readme",
+    "devDependencies": {
+        "nock": "^10.0.6",
+        "sinon": "^7.3.1"
+    },
+    "dependencies": {
+        "axios": "^0.18.0",
+        "express": "^4.16.4"
+    }
 }
